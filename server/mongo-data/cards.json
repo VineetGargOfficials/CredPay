@@ -1,0 +1,150 @@
+[
+  {
+    "_id": { "$oid": "67406b011a1b2c3d4e5f7001" },
+    "bankName": "HDFC Bank",
+    "cardNetwork": "VISA",
+    "cardVariant": "Regalia",
+    "last4Digits": "4821",
+    "limitAvailable": 150000,
+    "processingFee": "1% of product value",
+    "processingFeePercent": 1.0,
+    "owner": { "$oid": "67406a011a1b2c3d4e5f6001" },
+    "ownerEmail": "vineet@example.com",
+    "ownerName": "Vineet Sharma",
+    "ownerRating": 4.8,
+    "kycVerified": true,
+    "colorGradient": "from-[#4F46E5] to-[#7C3AED]",
+    "bgHex": "#4F46E5",
+    "offers": [
+      {
+        "platform": "Flipkart",
+        "title": "10% instant discount on Flipkart",
+        "discountPercent": 10,
+        "maxDiscount": 5000,
+        "validTill": "30 Nov",
+        "isBestMatch": true
+      },
+      {
+        "platform": "Amazon",
+        "title": "5% instant discount on Amazon",
+        "discountPercent": 5,
+        "maxDiscount": 2500,
+        "validTill": "15 Dec",
+        "isBestMatch": false
+      },
+      {
+        "platform": "General",
+        "title": "No-cost EMI",
+        "discountPercent": 0,
+        "maxDiscount": 0,
+        "validTill": "31 Dec",
+        "isBestMatch": false
+      }
+    ],
+    "createdAt": { "$date": "2026-11-02T11:00:00.000Z" },
+    "updatedAt": { "$date": "2026-11-22T08:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "67406b011a1b2c3d4e5f7002" },
+    "bankName": "ICICI Bank",
+    "cardNetwork": "VISA",
+    "cardVariant": "Amazon Pay",
+    "last4Digits": "7302",
+    "limitAvailable": 200000,
+    "processingFee": "1% of product value",
+    "processingFeePercent": 1.0,
+    "owner": { "$oid": "67406a011a1b2c3d4e5f6001" },
+    "ownerEmail": "vineet@example.com",
+    "ownerName": "Vineet Sharma",
+    "ownerRating": 4.9,
+    "kycVerified": true,
+    "colorGradient": "from-[#0D9488] to-[#047857]",
+    "bgHex": "#0D9488",
+    "offers": [
+      {
+        "platform": "Amazon",
+        "title": "5% unlimited cashback on Amazon",
+        "discountPercent": 5,
+        "maxDiscount": 10000,
+        "validTill": "31 Dec",
+        "isBestMatch": false
+      },
+      {
+        "platform": "Flipkart",
+        "title": "5% instant discount on Flipkart",
+        "discountPercent": 5,
+        "maxDiscount": 2000,
+        "validTill": "20 Dec",
+        "isBestMatch": false
+      }
+    ],
+    "createdAt": { "$date": "2026-11-03T09:30:00.000Z" },
+    "updatedAt": { "$date": "2026-11-22T08:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "67406b011a1b2c3d4e5f7003" },
+    "bankName": "SBI Card",
+    "cardNetwork": "MasterCard",
+    "cardVariant": "Cashback",
+    "last4Digits": "1190",
+    "limitAvailable": 80000,
+    "processingFee": "1% of product value",
+    "processingFeePercent": 1.0,
+    "owner": { "$oid": "67406a011a1b2c3d4e5f6001" },
+    "ownerEmail": "vineet@example.com",
+    "ownerName": "Vineet Sharma",
+    "ownerRating": 4.7,
+    "kycVerified": true,
+    "colorGradient": "from-[#D97706] to-[#B45309]",
+    "bgHex": "#D97706",
+    "offers": [
+      {
+        "platform": "Flipkart",
+        "title": "5% cashback on Flipkart",
+        "discountPercent": 5,
+        "maxDiscount": 1500,
+        "validTill": "25 Dec",
+        "isBestMatch": false
+      },
+      {
+        "platform": "Amazon",
+        "title": "5% cashback on online spends",
+        "discountPercent": 5,
+        "maxDiscount": 1500,
+        "validTill": "31 Dec",
+        "isBestMatch": false
+      }
+    ],
+    "createdAt": { "$date": "2026-11-04T15:00:00.000Z" },
+    "updatedAt": { "$date": "2026-11-22T08:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "67406b011a1b2c3d4e5f7004" },
+    "bankName": "Axis Bank",
+    "cardNetwork": "VISA",
+    "cardVariant": "Flipkart Axis",
+    "last4Digits": "6034",
+    "limitAvailable": 120000,
+    "processingFee": "1% of product value",
+    "processingFeePercent": 1.0,
+    "owner": { "$oid": "67406a011a1b2c3d4e5f6002" },
+    "ownerEmail": "priya@example.com",
+    "ownerName": "Priya Patel",
+    "ownerRating": 4.6,
+    "kycVerified": true,
+    "colorGradient": "from-[#E11D48] to-[#9F1239]",
+    "bgHex": "#E11D48",
+    "offers": [
+      {
+        "platform": "Flipkart",
+        "title": "7.5% instant discount on Flipkart",
+        "discountPercent": 7.5,
+        "maxDiscount": 3750,
+        "validTill": "15 Dec",
+        "isBestMatch": false
+      }
+    ],
+    "createdAt": { "$date": "2026-11-06T16:20:00.000Z" },
+    "updatedAt": { "$date": "2026-11-22T08:00:00.000Z" }
+  }
+]

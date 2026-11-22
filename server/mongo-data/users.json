@@ -1,0 +1,78 @@
+[
+  {
+    "_id": { "$oid": "67406a011a1b2c3d4e5f6001" },
+    "name": "Vineet Sharma",
+    "email": "vineet@example.com",
+    "password": "$2a$10$wK1GvH3bYyL61T8YqK6Zke5u08C6i88T4Q.mO5gB9a3d4CqW1p5/G",
+    "plainPasswordForDemo": "Vineet@123",
+    "role": "owner",
+    "classification": "Multiple Cards",
+    "isKycVerified": true,
+    "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=120&auto=format&fit=crop&q=80",
+    "stats": {
+      "listedCards": 3,
+      "activeRequests": 5,
+      "ordersCompleted": 18,
+      "feeEarned": 4250
+    },
+    "createdAt": { "$date": "2026-11-01T10:00:00.000Z" },
+    "updatedAt": { "$date": "2026-11-22T08:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "67406a011a1b2c3d4e5f6002" },
+    "name": "Priya Patel",
+    "email": "priya@example.com",
+    "password": "$2a$10$Z3U6K9bYyL61T8YqK6Zke5u08C6i88T4Q.mO5gB9a3d4CqW1p5/H",
+    "plainPasswordForDemo": "Priya@123",
+    "role": "owner",
+    "classification": "One Card",
+    "isKycVerified": true,
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+    "stats": {
+      "listedCards": 1,
+      "activeRequests": 1,
+      "ordersCompleted": 4,
+      "feeEarned": 1200
+    },
+    "createdAt": { "$date": "2026-11-05T12:00:00.000Z" },
+    "updatedAt": { "$date": "2026-11-22T08:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "67406a011a1b2c3d4e5f6003" },
+    "name": "Rahul Verma",
+    "email": "rahul@example.com",
+    "password": "$2a$10$M9P2K9bYyL61T8YqK6Zke5u08C6i88T4Q.mO5gB9a3d4CqW1p5/I",
+    "plainPasswordForDemo": "Rahul@123",
+    "role": "seeker",
+    "classification": "None / Shopper",
+    "isKycVerified": true,
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&auto=format&fit=crop&q=80",
+    "stats": {
+      "listedCards": 0,
+      "activeRequests": 2,
+      "ordersCompleted": 3,
+      "feeEarned": 0
+    },
+    "createdAt": { "$date": "2026-11-10T14:30:00.000Z" },
+    "updatedAt": { "$date": "2026-11-22T08:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "67406a011a1b2c3d4e5f6004" },
+    "name": "Ananya Singh",
+    "email": "ananya@example.com",
+    "password": "$2a$10$R7T4K9bYyL61T8YqK6Zke5u08C6i88T4Q.mO5gB9a3d4CqW1p5/J",
+    "plainPasswordForDemo": "Ananya@123",
+    "role": "seeker",
+    "classification": "None / New User",
+    "isKycVerified": false,
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=120&auto=format&fit=crop&q=80",
+    "stats": {
+      "listedCards": 0,
+      "activeRequests": 0,
+      "ordersCompleted": 0,
+      "feeEarned": 0
+    },
+    "createdAt": { "$date": "2026-11-21T09:15:00.000Z" },
+    "updatedAt": { "$date": "2026-11-22T08:00:00.000Z" }
+  }
+]

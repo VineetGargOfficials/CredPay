@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans antialiased text-slate-800 bg-[#F8FAFC];
+    letter-spacing: -0.011em;
+  }
+}
+
+/* Custom credit card styling */
+.credit-card-surface {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.credit-card-surface:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.15);
+}
+
+.credit-card-surface::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.15) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+/* Scanner target box pulse animation */
+@keyframes scanner-pulse {
+  0%, 100% {
+    border-color: #10B981;
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.3);
+  }
+  50% {
+    border-color: #34D399;
+    box-shadow: 0 0 25px rgba(16, 185, 129, 0.6);
+  }
+}
+
+.scanner-frame-detected {
+  animation: scanner-pulse 2s infinite ease-in-out;
+}
+
+/* Laser sweep bar across card */
+@keyframes laser-sweep {
+  0% {
+    top: 5%;
+    opacity: 0.2;
+  }
+  50% {
+    top: 90%;
+    opacity: 0.8;
+  }
+  100% {
+    top: 5%;
+    opacity: 0.2;
+  }
+}
+
+.laser-bar {
+  animation: laser-sweep 2.5s infinite ease-in-out;
+}
